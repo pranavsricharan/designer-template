@@ -1,0 +1,131 @@
+/*fonts for use*/
+@font-face
+{
+font-family: Lato;
+src: url('../fonts/Lato-Regular.ttf');
+font-weight:400; 
+}
+@font-face
+{
+font-family: Lato;
+src: url('../fonts/Lato-Light.ttf');
+font-weight:300; 
+}
+@font-face
+{
+font-family: Lato;
+src: url('../fonts/Lato-Light.ttf');
+font-weight:200; 
+}
+@font-face
+{
+font-family: Lato;
+src: url('../fonts/Lato-Bold.ttf');
+font-weight:700; 
+}
+@font-face
+{
+font-family: 'Roboto Slab';
+src: url('../fonts/RobotoSlab-Bold.ttf');
+font-weight:700; 
+}
+@font-face
+{
+font-family: 'Roboto Slab';
+src: url('../fonts/RobotoSlab-Regular.ttf');
+font-weight:400; 
+}
+
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	background:#ccc;
+	font-family: Lato,sans-serif;
+	font-weight:300;
+}
+
+#top {
+	height:90px;
+	width:100%;
+	line-height:90px;
+	box-sizing:border-box;
+	padding:0 2.5%;
+	background:transparent;
+	color:#fff;
+	position:fixed;
+	top:0;
+	left:0;
+	
+}
+
+#logo {
+	font-size:2em;
+	font-weight:200;
+	float:left;
+	
+}
+
+#logo span {
+	font-weight:700;
+	
+	border-bottom:3px solid #fff;
+	/*padding:5px;
+	background:#fff;
+	color:#619ccb;
+	
+	border: 4px double white;*/
+	
+}
+
+#menu {
+	float: right;
+}
+
+#menu li {
+	float:left;
+	list-style:none;
+	margin-left:50px;
+}
+
+
+
+.cover {
+	width:100vw;
+	height:100vh;
+	box-sizing:border-box;
+	background:#222;
+	display:flex;
+	background-image:url('../img/bg1.jpg');
+	background-size:25%;
+	flex-direction:column;
+}
+
+.coverTitle {
+	margin:auto;
+	font-size:3em;
+	color:#fff;
+	text-align:center;
+	
+}
+
+.largeText {
+	font-size:1.5em;
+	color:#14fcb2;
+	font-weight:700;
+	letter-spacing: 5px;
+}
+
+.coverInfo {
+	border-top:5px solid #fff;
+	margin-top:15px;
+	padding-top:10px;
+	color:#999;
+	font-size:0.5em;
+	font-weight:700;
+	letter-spacing: 5px;
+	font-family: 'Roboto Slab';
+}
